@@ -6,7 +6,66 @@
     background-repeat: no-repeat;
     max-width:100%
 }
+.hero-row-header {
+    font-size: x-large;
+    letter-spacing: 0.07em;
+   margin-top: 1em;
+}
+.hero-row-head-text{
+font-weight: bolder;
+    margin-bottom:0em;
+    margin-top:0em;
+}
+.hero-row-sub-text{
+    font-weight: 550 !important;
+    margin-top:0em;
+}
+.picture-row{
+    display:flex;
+    margin-top: 5em;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5em;
+}
+.row {
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.column {
+    display:flex;
+    width: 33.33%;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+}
+.icons{
+    width:40%;
+}
+.icon-text{
+    position:absolute;
+    top: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.inquire-button{
+    width:275px;
+    height:50px;
+    background-color: #0f833e;
+    color:white;
+    font-weight: bolder;
+    font-size:175%;
+    border-style: none;
+    margin-top: 1em;
+}
+.center {
+    text-align: center;
+}
 
+.green-color {
+    color: #0f833e;
+}
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
@@ -17,7 +76,30 @@
         background-size: cover;
         background-image: url('/images/banner-mobile.jpg');
     }
+    .hero-row-header {
+        font-size:medium;
+    }
+    .picture-row {
+        display:block;
+        margin-top:3em;
+    }
+    .column{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:2.5em;
+    }
+    .icons {width:100%;}
+    .icon-text {
+            position: absolute;
+            top: 85%;
+            font-size: medium;
+            font-weight: bold;
+            margin-top:2em;
+            margin-bottom: 3em;
+        }
 }
+
+
 
  @media only screen and (min-width: 768px) and (max-width: 1024px){
  .header-div {
@@ -25,22 +107,22 @@
     background-size:cover;
     background-image: url('/images/banner-tablet.jpg');
  }
+ .hero-row-header {
+     font-size: large;
+ }
+        .icons {
+            width: 50%;
+        }
 }
 
  @media only screen and (min-width: 1024px) {
      .header-div {
-         height: 275px;
-         background-size: contain;
-         background-image: url('/images/banner-desktop.jpg');
-     }
- }
- @media only screen and (min-width: 1320px) {
-     .header-div {
-         height: 275px;
+         height: 250px;
          background-size: cover;
          background-image: url('/images/banner-desktop.jpg');
      }
  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
