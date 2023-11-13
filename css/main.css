@@ -68,7 +68,7 @@ font-weight: bolder;
     font-size: x-large;
     font-weight: bold;
 }
-.inquire-button{
+.button{
     width:275px;
     height:50px;
     background-color: #0f833e;
@@ -77,6 +77,44 @@ font-weight: bolder;
     font-size:175%;
     border-style: none;
     margin-top: 1em;
+}
+.form-row-1, .form-row-2, .form-row-3{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.form-section{
+font-size: x-large;
+}
+
+.form-2{
+    display:inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.form-2 label{
+    display:block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+input, textarea {
+    height:40px;
+    width:100%;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+
+}
+textarea{
+    height:200px;
+    width:750px;
+}
+.submit-button{
+    font-size: 150%;
+    margin-bottom: 2em;
 }
 .center {
     text-align: center;
@@ -116,6 +154,20 @@ font-weight: bolder;
             margin-top:2em;
             margin-bottom: 3em;
         }
+        .form-row-1, .form-row-2, .form-row-3 {
+             display:block ;
+            margin-top: 4px;
+            width:80%;
+            margin:auto;
+        }
+                input,
+                textarea {
+                    width: 100%;
+                }
+                .form-2{
+                    display:block;
+                    margin:0;
+                }
 }
 
 
