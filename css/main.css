@@ -2,24 +2,45 @@
    Your custom CSS styles
    ========================================================================== */
 
-
-
-
-
-
-
+.header-div{
+    background-repeat: no-repeat;
+    max-width:100%
+}
 
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
 
-@media only screen and (max-width: 480px) {
-    /* insert styles here */
+ @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .header-div {
+        height: 200px;
+        background-size: cover;
+        background-image: url('/images/banner-mobile.jpg');
+    }
 }
 
+ @media only screen and (min-width: 768px) and (max-width: 1024px){
+ .header-div {
+    height: 250px;
+    background-size:cover;
+    background-image: url('/images/banner-tablet.jpg');
+ }
+}
 
-
-
+ @media only screen and (min-width: 1024px) {
+     .header-div {
+         height: 275px;
+         background-size: contain;
+         background-image: url('/images/banner-desktop.jpg');
+     }
+ }
+ @media only screen and (min-width: 1320px) {
+     .header-div {
+         height: 275px;
+         background-size: cover;
+         background-image: url('/images/banner-desktop.jpg');
+     }
+ }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
