@@ -11,6 +11,9 @@
     letter-spacing: 0.07em;
    margin-top: 1em;
 }
+.text-only-row{
+    background-color: #f1f1f1;
+}
 .hero-row-head-text{
 font-weight: bolder;
     margin-bottom:0em;
@@ -20,6 +23,22 @@ font-weight: bolder;
     font-weight: 550 !important;
     margin-top:0em;
 }
+.text-only-sub-text{
+    font-weight: 550 !important;
+        margin-top: 0em;
+}
+.text-only-header{
+    font-weight:bold;
+    padding-top: 1em;
+}
+
+.text-paragraph{
+    margin-left:10%;
+    margin-right:10%;
+    font-size: 0.70em;
+    padding-bottom: 2em;
+}
+
 .picture-row{
     display:flex;
     margin-top: 5em;
