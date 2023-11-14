@@ -144,7 +144,7 @@ img:hover {
     .header-div {
         height: 200px;
         background-size: cover;
-        background-image: url('/images/banner-mobile.jpg');
+        background-image: url('images/banner-mobile.jpg');
     }
     .hero-row-header {
         font-size:medium;
@@ -192,7 +192,7 @@ img:hover {
  .header-div {
     height: 250px;
     background-size:cover;
-    background-image: url('/images/banner-tablet.jpg');
+    background-image: url('images/banner-tablet.jpg');
  }
  .hero-row-header {
      font-size: large;
@@ -206,6 +206,6 @@ img:hover {
      .header-div {
          height: 250px;
          background-size: cover;
-         background-image: url('/images/banner-desktop.jpg');
+         background-image: url('images/banner-desktop.jpg');
      }
  }
