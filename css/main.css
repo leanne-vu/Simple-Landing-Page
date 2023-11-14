@@ -144,7 +144,7 @@ img:hover {
     .header-div {
         height: 200px;
         background-size: cover;
-        background-image: url('images/banner-mobile.jpg');
+        background-image: url('https://github.com/leanne-vu/Simple-Landing-Page/blob/99472dfa73b05c40561d933e723c47cd573fe141/images/banner-mobile.jpg?raw=true');
     }
     .hero-row-header {
         font-size:medium;
@@ -192,7 +192,7 @@ img:hover {
  .header-div {
     height: 250px;
     background-size:cover;
-    background-image: url('images/banner-tablet.jpg');
+    background-image: url('https://github.com/leanne-vu/Simple-Landing-Page/blob/99472dfa73b05c40561d933e723c47cd573fe141/images/banner-tablet.jpg?raw=true');
  }
  .hero-row-header {
      font-size: large;
@@ -206,6 +206,6 @@ img:hover {
      .header-div {
          height: 250px;
          background-size: cover;
-         background-image: url('images/banner-desktop.jpg');
+         background-image: url('https://github.com/leanne-vu/Simple-Landing-Page/blob/99472dfa73b05c40561d933e723c47cd573fe141/images/banner-desktop.jpg?raw=true');
      }
  }
