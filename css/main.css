@@ -123,6 +123,15 @@ textarea{
 .green-color {
     color: #0f833e;
 }
+
+img {
+    transition: all 0.3s ease-in-out 0s;
+}
+img:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
